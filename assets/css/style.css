@@ -1838,3 +1838,28 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
 .fa-home:hover{
   color:black;
 }
+.featured .newsdesc {
+  position: relative;
+  margin-bottom: 5px;
+  height: 145px;
+  overflow: hidden;
+  padding: 0 5px;
+}
+.newsBox h3 {
+  font-size: 18px;
+  padding-top: 3px;
+}
+.featured h3 {
+  position: absolute;
+  bottom: -20px;
+  background: rgba(0,0,0,.75);
+  padding: 5px;
+  width: 100%;
+}
+.featured h3 a{
+  color: #fff;
+}
+.featured .newspic {
+  position: relative;
+  height: 145px;
+}
